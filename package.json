@@ -1,6 +1,6 @@
 {
   "name": "secret-server",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "secret-server hides your application behind a password",
   "main": "lib/index.js",
   "scripts": {
