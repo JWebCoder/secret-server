@@ -49,7 +49,7 @@ All properties are not required
 
 MIT
 
-[actions-badge]: https://github.com/jwebcoder/secret-server/workflows/Node%20CI/badge.svg
+[actions-badge]: https://github.com/jwebcoder/secret-server/workflows/Build/badge.svg
 [actions]: https://github.com/JWebCoder/secret-server/actions
 
 [codecov-badge]: https://codecov.io/gh/JWebCoder/secret-server/branch/master/graph/badge.svg
