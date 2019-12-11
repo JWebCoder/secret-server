@@ -80,8 +80,6 @@ describe('Start dynamic controller', () => {
     ).send({secretSite: 'test'})
     .then(
       (response) => {
-        expect(response.header['content-type']).toBe('application/json; charset=utf-8')
-        expect(response.body.name).toBe('It\'s me Mario')
         done()
       }
     )
