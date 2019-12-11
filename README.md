@@ -18,6 +18,10 @@ This module will make the application unaccessible until the user enters the cor
 
 This module was done with the intent to be used during development stages of an application, in order to be able to demo it to the client but keeping hidden from outsiders.
 
+## Installation
+
+`npm i secret-server`
+
 ## Usage
 
 ```javascript
