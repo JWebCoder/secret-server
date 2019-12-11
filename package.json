@@ -8,7 +8,9 @@
     "build": "npm run lint && npm run clean && npm run build:js",
     "build:js": "tsc",
     "lint": "tslint -c tslint.json -p tsconfig.json",
-    "test": "jest --coverage --collectCoverageFrom=src/**/*.ts --forceExit"
+    "test": "jest --coverage --collectCoverageFrom=src/**/*.ts --forceExit",
+    "prepublishOnly": "npm run build",
+    "version": "npm run build"
   },
   "author": "João Moura <joao87moura@gmail.com>",
   "license": "MIT",
