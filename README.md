@@ -25,6 +25,9 @@ This module was done with the intent to be used during development stages of an 
 ## Usage
 
 ```javascript
+
+import secretServer from 'secret-server'
+
 expressApp.use(cookieSession({
   name: 'session',
   keys: ['key1', 'key2'],
